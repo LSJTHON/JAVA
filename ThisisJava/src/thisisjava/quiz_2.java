@@ -14,14 +14,13 @@ public class quiz_2 {
 		System.out.println("양의 정수를 입력하세요:\t"); 
 		number = sc.nextInt(); //number 변수 입력문
 		
-		if(number % 3 == 0 ) {  // 3으로 나누었을때 나머지가 0이되는 경우 참
-			System.out.println(number+ "3의 배수입니다.");
-		}else if(number %5 == 0) { //5으로 나누었을때 나머지가 0이되는 경우 참
-			System.out.println(number+" 5의 배수입니다.");
-		}else if(number % 8 == 0) { //8으로 나누었을때 나머지가 0이되는 경우 참
-			System.out.println(number+" 8의 배수입니다.");
-		}else {
-			System.out.println("아무것도 아닙니다"); //참이 아무것도 없을때 출력
+		if(number % 3 == 0 ) { // 3으로 나누었을때 나머지가 0이되는 경우 참
+			System.out.println(number+ " 3의 배수입니다.");
+			if(number %5 == 0) {  //5으로 나누었을때 나머지가 0이되는 경우 참
+				System.out.println(number+" 5의 배수입니다.");
+				if(number % 8 == 0)  //8으로 나누었을때 나머지가 0이되는 경우 참
+					System.out.println(number+" 8의 배수입니다.");
+			}
 		}
 	}
 
