@@ -3,13 +3,8 @@ import java.util.*;
 public class whileTest2 {
 
 	public static void main(String[] args) {
-		int score;
-		int totalCount=0;
-		int Acount =0;
-		int Bcount =0;
-		int Ccount =0;
-		int Dcount =0;
-		int Fcount =0;
+		int score,sum,totalCount=0,Acount =0
+				,Bcount =0,Ccount =0,Dcount =0,Fcount =0;
 		
 		Scanner sc = new Scanner(System.in);
 		
@@ -26,6 +21,7 @@ public class whileTest2 {
 			System.out.println("점수를 입력하세요:");
 			score = sc.nextInt();
 		}
+		
 		System.out.println("점수들의 총수 : "+totalCount
 				+"\nA학점:"+Acount
 				+"\nB학점:"+Bcount
