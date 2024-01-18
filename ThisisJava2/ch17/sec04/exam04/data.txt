@@ -1,0 +1,6 @@
+{pno:0, name상품0, company:멋진회사, price6807}
+{pno:1, name상품1, company:멋진회사, price9972}
+{pno:2, name상품2, company:멋진회사, price2906}
+{pno:3, name상품3, company:멋진회사, price3296}
+{pno:4, name상품4, company:멋진회사, price2131}
+{pno:5, name상품5, company:멋진회사, price9508}
